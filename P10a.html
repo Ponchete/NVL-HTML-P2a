@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+</head>
+<body>
+<h2>Encuesta de satisfaccion del producto comprado</h2>
+	<form method="post" action="miservidor.php"  >
+  <div style="margin:10px">
+  	<label for="cp">Codigo Postal:</label>
+  	<input id="cp" type="number">
+  </div>
+  <div style="margin:10px">
+	<label for="satisfaccion"> Nivel de Satisfacción:</label>
+	<select id="satisfaccion">
+		<option value="1">1</option>
+		<option value="2">2</option>
+		<option value="3">3</option>
+		<option value="4">4</option>
+		<option value="5">5</option>
+	</select>
+  </div>
+  <div style="margin:10px">
+  	<label for="email">Email:</label>
+  	<input type="text" id="email">
+  </div>
+  <div style="margin:10px">
+  	<label for="positivos">Puntos que valoraria positivos del producto:</label>
+  	<textarea id="positivos"></textarea>
+  </div>
+  <div style="margin:10px">
+  	<label for="negativos">Puntos que valoraria negativos del producto:</label>
+  	<textarea id="negativos"></textarea>
+  </div>
+  <div style="margin:10px">
+  	<p>Valore los siguientes aspectos relacionados con el producto</p>
+  	<label for="tamaño">Tamaño del objeto</label>
+  	<select id="tamaño">
+		<option value="1">1</option>
+		<option value="2">2</option>
+		<option value="3">3</option>
+		<option value="4">4</option>
+		<option value="5">5</option>
+	</select>
+	</div>
+	<div style="margin:10px">
+	<label for="aspecto">Aspecto del producto</label>
+  	<select id="aspecto">
+		<option value="1">Pesimo</option>
+		<option value="2">Malo</option>
+		<option value="3">Regular</option>
+		<option value="4">Bueno</option>
+		<option value="5">Excelente</option>
+	</select>
+	</div>
+	<div style="margin:10px">
+	<label for="precio">Precio del producto</label>
+  	<select id="precio">
+		<option value="1">Pesimo</option>
+		<option value="2">Malo</option>
+		<option value="3">Regular</option>
+		<option value="4">Bueno</option>
+		<option value="5">Excelente</option>
+	</select>
+	</div>
+	<div style="margin:10px">
+	<p>Calidad de los materiales del producto</p>
+  		<input type="radio" name="calidad" value="1">Pesimo
+  		<input type="radio" name="calidad" value="2">Malo
+		<input type="radio" name="calidad" value="3">Regular
+		<input type="radio" name="calidad" value="4">Bueno
+		<input type="radio" name="calidad" value="5">Excelente
+	</div>
+	<div style="margin:10px">
+	<p>Consumo de energia del producto</p>
+  		<input type="radio" name="consumo" value="1">Pesimo
+  		<input type="radio" name="consumo" value="2">Malo
+		<input type="radio" name="consumo" value="3">Regular
+		<input type="radio" name="consumo" value="4">Bueno
+		<input type="radio" name="consumo" value="5">Excelente
+	</div>
+  <input type="submit" value="Enviar">
+</form>
+</body>
+</html>
