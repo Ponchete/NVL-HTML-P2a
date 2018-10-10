@@ -1,0 +1,6 @@
+El html final esta dividido en 4 tablas.
+Cada tabla contiene unos de los apartados pedidos.
+Se ha puesto cada tabla con un color diferente para que sean visibles a golpe de vista nada mas entrar en la pagina
+Dentro de cada tabla la informacion ya esta dividida en tr para colocarla de una manera mas eficiente.
+Se han cambiado tambien fuentes, formatos, espacios para que visualemente quede algo mejor.
+Se podria haber hecho con divs tambien pero para algo tan sencillo no creo que fuese necesario
